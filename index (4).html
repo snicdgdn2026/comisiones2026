@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f4e78">
+  <title>Registro de Comisiones - U.R.D.</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #eef2f6; color: #1f2937; }
+    header { background: #1f4e78; color: #fff; text-align: center; padding: 16px 20px; box-shadow: 0 2px 8px #0002; }
+    header h1 { font-size: clamp(18px, 3vw, 25px); margin: 0 0 6px; }
+    header p { margin: 0; font-size: 14px; opacity: .92; }
+    main { padding: 14px; max-width: 1500px; margin: 0 auto; }
+    .acciones { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 12px; }
+    .acciones a { display: inline-block; background: #1f4e78; color: #fff; padding: 10px 14px; border-radius: 7px; text-decoration: none; font-weight: bold; font-size: 14px; }
+    .acciones a:hover { background: #163a5b; }
+    .nota { font-size: 13px; color: #475569; }
+    .marco { background: white; border: 1px solid #cbd5e1; border-radius: 10px; overflow: hidden; min-height: 75vh; box-shadow: 0 2px 10px #0000000d; }
+    iframe { display: block; width: 100%; height: calc(100vh - 160px); min-height: 680px; border: 0; background: white; }
+    @media (max-width: 600px) {
+      main { padding: 8px; }
+      header { padding: 14px 10px; }
+      .marco { border-radius: 6px; }
+      iframe { height: calc(100vh - 190px); min-height: 720px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Registro de Comisiones - U.R.D.</h1>
+    <p>Sistema de registro, llegada, retiro y finalización de comisiones</p>
+  </header>
+  <main>
+    <div class="acciones">
+      <a href="https://script.google.com/macros/s/AKfycbzyCg_30ILlnN1Wim1tN-d52jxfshkFQcaFBq_H8_CWZkdGfQgH_k44AHAqLi-kI0F0JA/exec" target="_blank" rel="noopener noreferrer">Abrir sistema en otra pestaña</a>
+      <span class="nota">Si el formulario no aparece dentro de esta página, abrilo con el botón.</span>
+    </div>
+    <section class="marco" aria-label="Formulario de Registro de Comisiones">
+      <iframe src="https://script.google.com/macros/s/AKfycbzyCg_30ILlnN1Wim1tN-d52jxfshkFQcaFBq_H8_CWZkdGfQgH_k44AHAqLi-kI0F0JA/exec"
+        title="Registro de Comisiones - U.R.D." loading="eager"
+        allow="clipboard-read; clipboard-write"
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+  </main>
+</body>
+</html>
